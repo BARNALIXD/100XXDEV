@@ -1,11 +1,5 @@
-function greet(name) {
-    return "Hello, World! " + name;
+function canVote(user) {
+  return user.age >= 18;
 }
-
-let ans = greet("barnali");
-let ans1 = greet("das");
-let ans2 = greet("kumar");
-
-console.log(ans);
-console.log(ans1);
-console.log(ans2);
+console.log(canVote({ name: "Alice", age: 20 })); // true
+console.log(canVote({ name: "Bob", age: 16 }));   // false      

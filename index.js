@@ -1,4 +1,11 @@
-let age = 10-9;
-let canVote = age > 18;
+function greet(name) {
+    return "Hello, World! " + name;
+}
 
-console.log("Can I vote? " + canVote);
+let ans = greet("barnali");
+let ans1 = greet("das");
+let ans2 = greet("kumar");
+
+console.log(ans);
+console.log(ans1);
+console.log(ans2);

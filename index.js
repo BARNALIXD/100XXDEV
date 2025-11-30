@@ -1,6 +1,8 @@
-let a = 10+20;
-console.log(a);
-let isEqual = a === 30;
-console.log(isEqual);
-let isTrue = (true && false) || (false || true);
-console.log(isTrue);
+let age = 10-9;
+let canVote = age > 18;
+
+if (canVote) {
+    console.log("You can vote!");
+} else {
+    console.log("You cannot vote yet.");
+}   
